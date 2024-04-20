@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rumah 3D</title>
+  <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="">
+    
+        <a-sky color="#87CEEB" material="" geometry=""></a-sky>
+    
+
+        <a-plane rotation="-90 0 0" width="100" height="100" color="#C0C0C0" material="" geometry=""></a-plane>
+    
+
+        <a-entity position="">
+
+          <a-box position="0 0.5 0" width="10" height="1" depth="8" color="#CD853F" material="" geometry="" scale="1.18 0.95 1.22">
+            <a-text value="Pondasi" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 0.19685 4.08149" text=""></a-text>
+          </a-box>
+    
+ 
+          <a-box position="0 3.5 0" width="10" height="7" depth="8" color="#B0E0E6" material="" geometry="">
+            <a-text value="Dinding" align="center" color="#000000" scale="1 1 1.5" position="0 4.32551 4.04512" text=""></a-text>
+          </a-box>
+    
+   
+          <a-entity position="0 8.5 0">
+    
+            <a-box position="-3.395 0.27943 0.405" width="10" height="1" depth="8" color="#CD5C5C" material="" geometry="" rotation="0 0 40" scale="0.83 1 1.35">
+              <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="-0.877 -0.045 4.056" text=""></a-text>
+            </a-box>
+            <a-box position="3.48183 0.38233 0.40545" width="10" height="1" depth="8" color="#CD5C5C" material="" geometry="" rotation="0 0 -40" scale="0.83 1 1.35">
+              <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="0.89671 -0.0338 4.056" text=""></a-text>
+            </a-box>
+  
+            <a-triangle position="0.17661 -1.558 -3.58834" vertex-a="-5 0 4" vertex-b="5 0 4" vertex-c="0 0 0" color="#CD5C5C" material="" geometry="vertexC: 0 100 0" rotation="0 -180 0" scale="1 0.043 0.097">
+              <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 1 -21.41976" text=""></a-text>
+            </a-triangle>
+            <a-triangle position="0.09661 -1.618 3.63166" vertex-a="-5 0 4" vertex-b="5 0 4" vertex-c="0 0 0" color="#CD5C5C" material="" geometry="vertexC: 0 100 0" rotation="" scale="1 0.043 0.097">
+              <a-text value="Atap" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 2 -47.43644" text=""></a-text>
+            </a-triangle>
+          </a-entity>
+    
+ 
+          <a-entity position="-2.5 5 4">
+            <a-box width="3" height="3" depth="0.1" color="#808080" material="color: #ffffff" geometry="" scale="0.65 1 1">
+              <a-text value="Jendela" align="center" color="#000000" scale="1 1 1.5" position="0 1 0.16" text=""></a-text>
+            </a-box>
+            <a-box width="0.1" height="3" depth="3" position="0.91 0 0" color="#808080" material="" geometry=""></a-box>
+            <a-box width="0.1" height="3" depth="3" position="-1.07 0 0" color="#808080" material="" geometry=""></a-box>
+          </a-entity>
+          <a-entity position="2.5 5 4">
+            <a-box width="3" height="3" depth="0.1" color="#808080" material="color: #ffffff" geometry="" rotation="0 -180 0" scale="0.65 1 1">
+              <a-text value="Jendela" align="center" color="#000000" scale="1 1 1.5" position="0 1 -0.1" text="" rotation="0 -180 0"></a-text>
+            </a-box><a-box width="3" height="3" depth="0.1" color="#808080" material="color: #ffffff" geometry="" rotation="0 -180 0" scale="0.66 0.56 0.15" position="-2.48 3.98 0">
+              <a-text value="Jendela" align="center" color="#000000" scale="1 1 1.5" position="0 1 -0.1" text="" rotation="0 -180 0"></a-text>
+            </a-box>
+            <a-box width="0.1" height="3" depth="3" position="1.01 0 0" color="#808080" material="" geometry=""></a-box><a-box width="0.1" height="3" depth="3" position="-1.44688 3.96553 -0.52208" color="#808080" material="" geometry="" scale="0.98 0.58 0.78"></a-box><a-box width="0.1" height="3" depth="3" position="-3.50859 3.98 -0.76" color="#808080" material="" geometry="" scale="1 0.58 1"></a-box>
+            <a-box width="0.1" height="3" depth="3" position="-0.93 0 0" color="#808080" material="" geometry=""></a-box>
+          </a-entity>
+    
+
+          <a-box width="2" height="3" depth="0.1" color="#8B0000" position="0 2.87 4.05" material="" geometry="" rotation="" scale="1.08 1.87 0.34">
+            <a-text value="Pintu" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 1 0.65892" text=""></a-text><a-text value="Pintu" align="center" color="#FFFFFF" scale="1 1 1.5" position="0 2.33 -0.06133" text="value: Coky Vresly Habeahan/2113025024; color: #000000"></a-text>
+          </a-box>
+        </a-entity>
+    
+
+        <a-entity camera="" position="-0.1274890216739393 5.417117930486893 15.86516375096483" rotation="-0.4583662361046582 360.50504469631267 0" look-controls="" wasd-controls="fly: true" data-aframe-inspector-original-camera=""></a-entity>
+      <div class="a-loader-title" style="display: none;">Rumah 3D</div></a-scene>
+</body>
+</html>
